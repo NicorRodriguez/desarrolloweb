@@ -1,0 +1,12 @@
+/* Agregue un height general ya que las imagenes son muy grandes. */
+img {
+    height: 200px;
+}
+
+.avatar.proportioned {
+    width: 300px;
+}
+
+.avatar.distorted {
+    width: 200px;
+}
