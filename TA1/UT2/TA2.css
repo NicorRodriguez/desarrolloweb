@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+input,
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#rangeSumOutput,
+#tempOutput,
+#leapYearOutput,
+#arraySumOutput {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+}

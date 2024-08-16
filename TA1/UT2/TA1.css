@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+input,
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#stringOutput p,
+#oddsOutput span {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+#oddsOutput span {
+    color: violet;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h4,
+p {
+    margin: 5px 0;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TA1</title>
+    <link rel="stylesheet" href="TA1.css">
+</head>
+
+<body>
+    <h1>TA1</h1>
+
+    <section id="stringManipulation">
+        <h2>Manipulación de Cadenas</h2>
+        <input type="text" id="stringInput" placeholder="Ingresa un texto">
+        <input type="number" id="repeatInput" placeholder="Número de repeticiones">
+        <button onclick="repeatString()">Repetir Texto</button>
+        <button onclick="reverseString()">Invertir Texto</button>
+        <div id="stringOutput"></div>
+    </section>
+
+    <section id="arrayProcessing">
+        <h2>Procesamiento de Arreglos</h2>
+        <input type="text" id="itemToRemove" placeholder="Elemento a eliminar">
+        <button onclick="removeFromArray()">Eliminar del Arreglo</button>
+        <div id="arrayOutput"></div>
+
+        <h3>Títulos de Libros</h3>
+        <button onclick="getTheTitles()">Obtener Títulos</button>
+        <div id="titlesOutput"></div>
+    </section>
+
+    <section id="filteringTransformation">
+        <h2>Filtrado y Transformación</h2>
+        <button onclick="getOdds()">Obtener Impares</button>
+        <div id="oddsOutput"></div>
+
+        <button onclick="duplicates()">Encontrar Duplicados</button>
+        <div id="duplicatesOutput"></div>
+    </section>
+
+    <script src="TA1.js"></script>
+</body>
+
+</html>

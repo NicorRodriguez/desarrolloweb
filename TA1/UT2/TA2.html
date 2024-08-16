@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TA2</title>
+    <link rel="stylesheet" href="TA2.css">
+</head>
+
+<body>
+    <h1>TA2</h1>
+
+    <section id="rangeSum">
+        <h2>Suma de Rango</h2>
+        <input type="number" id="startRange" placeholder="Número inicial">
+        <input type="number" id="endRange" placeholder="Número final">
+        <button onclick="sumAll()">Calcular Suma</button>
+        <p id="rangeSumOutput"></p>
+    </section>
+
+    <section id="temperatureConversion">
+        <h2>Conversión de Temperatura</h2>
+        <input type="number" id="tempInput" placeholder="Temperatura">
+        <button onclick="convertToCelsius()">Convertir a Celsius</button>
+        <button onclick="convertToFahrenheit()">Convertir a Fahrenheit</button>
+        <p id="tempOutput"></p>
+    </section>
+
+    <section id="leapYearCheck">
+        <h2>Determinación de Año Bisiesto</h2>
+        <input type="number" id="yearInput" placeholder="Ingresa un año">
+        <button onclick="leapYears()">¿Es Año Bisiesto?</button>
+        <p id="leapYearOutput"></p>
+    </section>
+
+    <section id="arraySum">
+        <h2>Suma de Elementos de un Arreglo</h2>
+        <button onclick="getSum()">Calcular Suma del Arreglo</button>
+        <p id="arraySumOutput"></p>
+    </section>
+
+    <script src="TA2.js"></script>
+</body>
+
+</html>

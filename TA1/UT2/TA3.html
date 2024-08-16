@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TA3</title>
+    <link rel="stylesheet" href="TA3.css">
+</head>
+
+<body>
+    <h1>TA3</h1>
+
+    <section id="stringManipulation">
+        <h2>Manipulación de Cadenas</h2>
+        <input type="text" id="stringInput" placeholder="Ingresa un texto">
+        <input type="number" id="repeatInput" placeholder="Número de repeticiones">
+        <button onclick="repeatString()">Repetir Texto</button>
+        <button onclick="reverseString()">Invertir Texto</button>
+        <div id="stringOutput"></div>
+    </section>
+
+    <section id="arrayProcessing">
+        <h2>Procesamiento de Arreglos</h2>
+        <input type="text" id="itemToRemove" placeholder="Elemento a eliminar">
+        <button onclick="removeFromArray()">Eliminar del Arreglo</button>
+        <div id="arrayOutput"></div>
+
+        <h3>Títulos de Libros</h3>
+        <button onclick="getTheTitles()">Obtener Títulos</button>
+        <div id="titlesOutput"></div>
+    </section>
+
+    <section id="filteringTransformation">
+        <h2>Filtrado y Transformación</h2>
+        <button onclick="getOdds()">Obtener Impares</button>
+        <div id="oddsOutput"></div>
+
+        <button onclick="duplicates()">Encontrar Duplicados</button>
+        <div id="duplicatesOutput"></div>
+    </section>
+
+    <section id="rangeSum">
+        <h2>Suma de Rango</h2>
+        <input type="number" id="startRange" placeholder="Número inicial">
+        <input type="number" id="endRange" placeholder="Número final">
+        <button onclick="sumAll()">Calcular Suma</button>
+        <p id="rangeSumOutput"></p>
+    </section>
+
+    <section id="temperatureConversion">
+        <h2>Conversión de Temperatura</h2>
+        <input type="number" id="tempInput" placeholder="Temperatura">
+        <button onclick="convertToCelsius()">Convertir a Celsius</button>
+        <button onclick="convertToFahrenheit()">Convertir a Fahrenheit</button>
+        <p id="tempOutput"></p>
+    </section>
+
+    <section id="leapYearCheck">
+        <h2>Determinación de Año Bisiesto</h2>
+        <input type="number" id="yearInput" placeholder="Ingresa un año">
+        <button onclick="leapYears()">¿Es Año Bisiesto?</button>
+        <p id="leapYearOutput"></p>
+    </section>
+
+    <section id="arraySum">
+        <h2>Suma de Elementos de un Arreglo</h2>
+        <button onclick="getSum()">Calcular Suma del Arreglo</button>
+        <p id="arraySumOutput"></p>
+    </section>
+
+    <section id="passwordGeneration">
+        <h2>Generación de Contraseñas</h2>
+        <input type="number" id="passwordLength" placeholder="Longitud de la contraseña (mínimo 8)">
+        <button onclick="generatePassword()">Generar Contraseña</button>
+        <p id="passwordOutput"></p>
+    </section>
+
+    <section id="findOldest">
+        <h2>Búsqueda de la Persona Más Vieja</h2>
+        <button onclick="findTheOldest()">Encontrar al Más Viejo</button>
+        <p id="oldestPersonOutput"></p>
+    </section>
+
+    <section id="completeProgram">
+        <h2>Programa Completo</h2>
+        <button onclick="runCompleteProgram()">Ejecutar Programa Completo</button>
+        <div id="completeProgramOutput"></div>
+    </section>
+
+    <script src="TA3.js"></script>
+</body>
+
+</html>
